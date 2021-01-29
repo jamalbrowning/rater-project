@@ -1,10 +1,8 @@
-from raterapi.models.game import Game
+
 from django.db import models
-from .game import Game
-from .player import Player
+from django.db.models.deletion import CASCADE
 
-class Game_rating(models.Model):
-
-   game = models.ManyToManyField(Game)
-   rating = models.IntegerField()
-   player = models.ManyToManyField(Player)
+class GameRating(models.Model):
+    game = models.ForeignKey("Game", on_delete=CASCADE)
+    rating = models.IntegerField()
+    player = models.ForeignKey("Player", on_delete=CASCADE)

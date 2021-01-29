@@ -1,0 +1,29 @@
+[
+  {
+      "model": "raterapi.gamereview",
+      "pk": 1,
+      "fields": {
+          "review": "what the heck in the world",
+          "game": 1,
+          "player": 1
+      }
+  },
+  {
+      "model": "raterapi.gamereview",
+      "pk": 2,
+      "fields": {
+          "review": "does this even make sense?",
+          "game": 2,
+          "player": 2
+      }
+  },
+  {
+      "model": "raterapi.gamereview",
+      "pk": 3,
+      "fields": {
+          "review": "Lehhhhgooooooooooooo",
+          "game": 3,
+          "player": 3
+      }
+  }
+]

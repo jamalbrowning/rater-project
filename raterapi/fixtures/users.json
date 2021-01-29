@@ -1,0 +1,57 @@
+
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "me",
+      "last_login": null,
+      "is_superuser": false,
+      "username":"me@gmail.com",
+      "first_name": "me",
+      "last_name": "meme",
+      "email": "me@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-11-28T14:51:39.989Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "ofaidjh2_398742klahfkjhda$%_",
+      "last_login": null,
+      "is_superuser": false,
+      "username":"jim@alan.com",
+      "first_name": "jim",
+      "last_name": "alan",
+      "email": "jim@alan.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-11-28T14:51:39.989Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "poiudal3987345%$_",
+      "last_login": null,
+      "is_superuser": false,
+      "username":"bart@simpsson.com",
+      "first_name": "bart",
+      "last_name": "simpson",
+      "email": "bart@simpson.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-11-28T14:51:39.989Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
