@@ -1,10 +1,9 @@
-from raterapi.models.game import Game
+  
 from django.db import models
-from .game import Game
-from .player import Player
+from django.db.models.deletion import CASCADE
+from django.db.models.fields import related
 
-class Game_review(models.Model):
-
-   game = models.ManyToManyField(Game)
-   review = models.CharField(max_length=150)
-   player = models.ManyToManyField(Player)
+class GameReview(models.Model):
+    review = models.CharField(max_length=250)
+    game = models.ForeignKey("Game", on_delete=CASCADE, related_name="reviews", related_query_name="review")
+    player = models.ForeignKey("Player", on_delete=CASCADE, related_name="players", related_query_name="player")
